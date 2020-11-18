@@ -1,0 +1,65 @@
+/content/documents/dynamiccomponentsdemo/banners:
+  jcr:primaryType: hippo:handle
+  jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+  jcr:uuid: ada955df-7fc3-4e8f-a40f-574a7274456e
+  hippo:name: Banners
+  hippo:versionHistory: 77110895-563e-4c18-9f10-f05d377b307e
+  /banners[1]:
+    jcr:primaryType: dynamiccomponentsdemo:BannerList
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 1647f2b2-4c18-4b10-aa92-23fc54292700
+    hippo:availability: []
+    hippostd:holder: admin
+    hippostd:retainable: false
+    hippostd:state: draft
+    hippostdpubwf:createdBy: admin
+    hippostdpubwf:creationDate: 2020-11-16T14:53:12.276-05:00
+    hippostdpubwf:lastModificationDate: 2020-11-18T14:15:58.270-05:00
+    hippostdpubwf:lastModifiedBy: admin
+    hippotranslation:id: faa58973-6902-42ef-acea-e72b19cd9d01
+    hippotranslation:locale: en
+    /dynamiccomponentsdemo:banners[1]:
+      jcr:primaryType: hippo:mirror
+      hippo:docbase: 305e3694-53f6-457e-a8fd-2b537cb95b21
+    /dynamiccomponentsdemo:banners[2]:
+      jcr:primaryType: hippo:mirror
+      hippo:docbase: 1e73ef18-850f-4e07-9ef6-3556169fc920
+  /banners[2]:
+    jcr:primaryType: dynamiccomponentsdemo:BannerList
+    jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+    jcr:uuid: d0905a28-47ba-4dc9-8fd9-85b0251e733f
+    hippo:availability: [preview]
+    hippostd:retainable: false
+    hippostd:state: unpublished
+    hippostdpubwf:createdBy: admin
+    hippostdpubwf:creationDate: 2020-11-16T14:53:12.276-05:00
+    hippostdpubwf:lastModificationDate: 2020-11-16T14:53:20.211-05:00
+    hippostdpubwf:lastModifiedBy: admin
+    hippotranslation:id: faa58973-6902-42ef-acea-e72b19cd9d01
+    hippotranslation:locale: en
+    /dynamiccomponentsdemo:banners[1]:
+      jcr:primaryType: hippo:mirror
+      hippo:docbase: 305e3694-53f6-457e-a8fd-2b537cb95b21
+    /dynamiccomponentsdemo:banners[2]:
+      jcr:primaryType: hippo:mirror
+      hippo:docbase: 1e73ef18-850f-4e07-9ef6-3556169fc920
+  /banners[3]:
+    jcr:primaryType: dynamiccomponentsdemo:BannerList
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: f9969013-1140-4610-87e0-e482c306faa0
+    hippo:availability: [live]
+    hippostd:retainable: false
+    hippostd:state: published
+    hippostdpubwf:createdBy: admin
+    hippostdpubwf:creationDate: 2020-11-16T14:53:12.276-05:00
+    hippostdpubwf:lastModificationDate: 2020-11-16T14:53:20.211-05:00
+    hippostdpubwf:lastModifiedBy: admin
+    hippostdpubwf:publicationDate: 2020-11-16T14:53:22.428-05:00
+    hippotranslation:id: faa58973-6902-42ef-acea-e72b19cd9d01
+    hippotranslation:locale: en
+    /dynamiccomponentsdemo:banners[1]:
+      jcr:primaryType: hippo:mirror
+      hippo:docbase: 305e3694-53f6-457e-a8fd-2b537cb95b21
+    /dynamiccomponentsdemo:banners[2]:
+      jcr:primaryType: hippo:mirror
+      hippo:docbase: 1e73ef18-850f-4e07-9ef6-3556169fc920

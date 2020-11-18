@@ -1,0 +1,48 @@
+<'dynamiccomponentsdemo'='http://www.dynamiccomponentsdemo.com/dynamiccomponentsdemo/nt/1.0'>
+<'hippo'='http://www.onehippo.org/jcr/hippo/nt/2.0.4'>
+<'hippostd'='http://www.onehippo.org/jcr/hippostd/nt/2.0'>
+<'hippostdpubwf'='http://www.onehippo.org/jcr/hippostdpubwf/nt/1.0'>
+<'hippotranslation'='http://www.onehippo.org/jcr/hippotranslation/nt/1.0'>
+<'hippogallery'='http://www.onehippo.org/jcr/hippogallery/nt/2.0'>
+
+[dynamiccomponentsdemo:basedocument] > hippo:document, hippostd:publishableSummary, hippostdpubwf:document
+  orderable
+
+[dynamiccomponentsdemo:Banner] > dynamiccomponentsdemo:basedocument, hippostd:relaxed, hippotranslation:translated
+  orderable
+
+[dynamiccomponentsdemo:BannerCompound] > hippo:compound, hippostd:relaxed
+  orderable
+
+[dynamiccomponentsdemo:BannerList] > dynamiccomponentsdemo:basedocument, hippostd:relaxed, hippotranslation:translated
+  orderable
+
+[dynamiccomponentsdemo:CTACompound] > hippo:compound, hippostd:relaxed
+  orderable
+
+[dynamiccomponentsdemo:Default] > hippogallery:imageset, hippogallery:relaxed
+
+[dynamiccomponentsdemo:ExternalLinkCompound] > hippo:compound, hippostd:relaxed
+  orderable
+
+[dynamiccomponentsdemo:ImageCompound] > hippo:compound, hippostd:relaxed
+  orderable
+
+[dynamiccomponentsdemo:InternalLinkCompound] > hippo:compound, hippostd:relaxed
+  orderable
+
+[dynamiccomponentsdemo:LandingPage] > dynamiccomponentsdemo:basedocument, hippostd:relaxed, hippotranslation:translated
+  orderable
+
+[dynamiccomponentsdemo:LinkCompound] > hippo:compound, hippostd:relaxed
+  orderable
+
+[dynamiccomponentsdemo:MetadataCompound] > hippo:compound, hippostd:relaxed
+  orderable
+
+[dynamiccomponentsdemo:TwoColumnCompound] > hippo:compound, hippostd:relaxed
+  orderable
+
+[dynamiccomponentsdemo:VideoCompound] > hippo:compound, hippostd:relaxed
+  orderable
+

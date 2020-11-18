@@ -1,0 +1,7 @@
+group: 
+  name: dynamiccomponentsdemo
+  after: hippo-cms
+project: dynamiccomponentsdemo
+module: 
+  name: dynamiccomponentsdemo-repository-data-development
+  after: dynamiccomponentsdemo-repository-data-application

@@ -1,0 +1,113 @@
+/content/documents/dynamiccomponentsdemo/banner-b:
+  jcr:primaryType: hippo:handle
+  jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+  jcr:uuid: 1e73ef18-850f-4e07-9ef6-3556169fc920
+  hippo:name: Banner-B
+  hippo:versionHistory: fbc096ac-1026-447b-bc20-b96912e2cbc0
+  /banner-b[1]:
+    jcr:primaryType: dynamiccomponentsdemo:Banner
+    jcr:mixinTypes: ['mix:versionable']
+    jcr:uuid: 7eac26a4-ae26-4f56-bd28-597bff85b812
+    dynamiccomponentsdemo:title: This is a second banner
+    hippo:availability: [preview]
+    hippostd:retainable: false
+    hippostd:state: unpublished
+    hippostdpubwf:createdBy: admin
+    hippostdpubwf:creationDate: 2020-11-16T14:51:50.896-05:00
+    hippostdpubwf:lastModificationDate: 2020-11-16T14:53:00.063-05:00
+    hippostdpubwf:lastModifiedBy: admin
+    hippotranslation:id: e7e14bbf-5fda-4a2c-91cf-821a106711ca
+    hippotranslation:locale: en
+    /dynamiccomponentsdemo:content:
+      jcr:primaryType: hippostd:html
+      hippostd:content: <p>This is some content for the second banner.</p>
+    /dynamiccomponentsdemo:background:
+      jcr:primaryType: hippogallerypicker:imagelink
+      hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+      hippo:facets: []
+      hippo:modes: []
+      hippo:values: []
+    /dynamiccomponentsdemo:cta:
+      jcr:primaryType: dynamiccomponentsdemo:CTACompound
+      dynamiccomponentsdemo:title: Sign up
+      /dynamiccomponentsdemo:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Sign up now to go to Yahoo for some reason.</p>
+      /dynamiccomponentsdemo:link:
+        jcr:primaryType: dynamiccomponentsdemo:LinkCompound
+        dynamiccomponentsdemo:label: Go there now
+        /dynamiccomponentsdemo:link:
+          jcr:primaryType: dynamiccomponentsdemo:ExternalLinkCompound
+          dynamiccomponentsdemo:link: https://www.yahoo.com
+  /banner-b[2]:
+    jcr:primaryType: dynamiccomponentsdemo:Banner
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 5253e68e-f6f9-49fb-8085-54398676188d
+    dynamiccomponentsdemo:title: This is a second banner
+    hippo:availability: []
+    hippostd:retainable: false
+    hippostd:state: draft
+    hippostd:transferable: false
+    hippostdpubwf:createdBy: admin
+    hippostdpubwf:creationDate: 2020-11-16T14:51:50.896-05:00
+    hippostdpubwf:lastModificationDate: 2020-11-17T16:11:49.037-05:00
+    hippostdpubwf:lastModifiedBy: admin
+    hippotranslation:id: e7e14bbf-5fda-4a2c-91cf-821a106711ca
+    hippotranslation:locale: en
+    /dynamiccomponentsdemo:content:
+      jcr:primaryType: hippostd:html
+      hippostd:content: <p>This is some content for the second banner.</p>
+    /dynamiccomponentsdemo:background:
+      jcr:primaryType: hippogallerypicker:imagelink
+      hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+      hippo:facets: []
+      hippo:modes: []
+      hippo:values: []
+    /dynamiccomponentsdemo:cta:
+      jcr:primaryType: dynamiccomponentsdemo:CTACompound
+      dynamiccomponentsdemo:title: Sign up
+      /dynamiccomponentsdemo:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Sign up now to go to Yahoo for some reason.</p>
+      /dynamiccomponentsdemo:link:
+        jcr:primaryType: dynamiccomponentsdemo:LinkCompound
+        dynamiccomponentsdemo:label: Go there now
+        /dynamiccomponentsdemo:link:
+          jcr:primaryType: dynamiccomponentsdemo:ExternalLinkCompound
+          dynamiccomponentsdemo:link: https://www.yahoo.com
+  /banner-b[3]:
+    jcr:primaryType: dynamiccomponentsdemo:Banner
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 69dcac70-7da7-49b7-93ae-b823cdc31965
+    dynamiccomponentsdemo:title: This is a second banner
+    hippo:availability: [live]
+    hippostd:retainable: false
+    hippostd:state: published
+    hippostdpubwf:createdBy: admin
+    hippostdpubwf:creationDate: 2020-11-16T14:51:50.896-05:00
+    hippostdpubwf:lastModificationDate: 2020-11-16T14:53:00.063-05:00
+    hippostdpubwf:lastModifiedBy: admin
+    hippostdpubwf:publicationDate: 2020-11-16T14:53:02.950-05:00
+    hippotranslation:id: e7e14bbf-5fda-4a2c-91cf-821a106711ca
+    hippotranslation:locale: en
+    /dynamiccomponentsdemo:content:
+      jcr:primaryType: hippostd:html
+      hippostd:content: <p>This is some content for the second banner.</p>
+    /dynamiccomponentsdemo:background:
+      jcr:primaryType: hippogallerypicker:imagelink
+      hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+      hippo:facets: []
+      hippo:modes: []
+      hippo:values: []
+    /dynamiccomponentsdemo:cta:
+      jcr:primaryType: dynamiccomponentsdemo:CTACompound
+      dynamiccomponentsdemo:title: Sign up
+      /dynamiccomponentsdemo:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Sign up now to go to Yahoo for some reason.</p>
+      /dynamiccomponentsdemo:link:
+        jcr:primaryType: dynamiccomponentsdemo:LinkCompound
+        dynamiccomponentsdemo:label: Go there now
+        /dynamiccomponentsdemo:link:
+          jcr:primaryType: dynamiccomponentsdemo:ExternalLinkCompound
+          dynamiccomponentsdemo:link: https://www.yahoo.com

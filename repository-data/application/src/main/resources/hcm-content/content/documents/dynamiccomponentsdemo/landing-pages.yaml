@@ -1,0 +1,350 @@
+/content/documents/dynamiccomponentsdemo/landing-pages:
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:versionable']
+  jcr:uuid: 1df208a2-5432-4c76-a00b-fe21c2853db5
+  hippo:name: Landing Pages
+  hippostd:foldertype: [new-translated-folder, new-document]
+  hippotranslation:id: 75f91d5a-20b3-405d-a246-f0e5b02fe88d
+  hippotranslation:locale: en
+  /example:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: a8d2fd8d-0994-42cb-b215-a71e1a101647
+    hippo:versionHistory: 03a37e54-0b52-4151-a114-bdec5bd98777
+    /example[1]:
+      jcr:primaryType: dynamiccomponentsdemo:LandingPage
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: f21d34a2-7e8b-49b7-a53f-ecff9791715a
+      dynamiccomponentsdemo:title: Example Landing Page
+      hippo:availability: []
+      hippostd:retainable: false
+      hippostd:state: draft
+      hippostd:transferable: false
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2020-11-17T14:06:47.811-05:00
+      hippostdpubwf:lastModificationDate: 2020-11-18T14:06:18.226-05:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 71160754-51eb-4dfb-9f4e-868682a4931a
+      hippotranslation:locale: en
+      /dynamiccomponentsdemo:metadata:
+        jcr:primaryType: dynamiccomponentsdemo:MetadataCompound
+        dynamiccomponentsdemo:description: A meta description
+        dynamiccomponentsdemo:keywords: Some meta keywords
+        dynamiccomponentsdemo:title: A meta title
+      /dynamiccomponentsdemo:content[1]:
+        jcr:primaryType: dynamiccomponentsdemo:BannerCompound
+        dynamiccomponentsdemo:header: Welcome
+        dynamiccomponentsdemo:title: Welcome
+        /dynamiccomponentsdemo:content:
+          jcr:primaryType: hippostd:html
+          hippostd:content: <p>This is just an example landing page.</p>
+        /dynamiccomponentsdemo:background:
+          jcr:primaryType: dynamiccomponentsdemo:ImageCompound
+          dynamiccomponentsdemo:alt: Zelda!
+          /dynamiccomponentsdemo:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 72dca8a5-8116-4114-ab3e-a219c5de74d9
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+      /dynamiccomponentsdemo:content[2]:
+        jcr:primaryType: dynamiccomponentsdemo:TwoColumnCompound
+        /dynamiccomponentsdemo:left:
+          jcr:primaryType: dynamiccomponentsdemo:VideoCompound
+          dynamiccomponentsdemo:id: https://www.youtube.com/embed/xFgOaww64Ao
+        /dynamiccomponentsdemo:right:
+          jcr:primaryType: hippostd:html
+          hippostd:content: <p>This is just some Bloomreach marketing material.</p>
+      /dynamiccomponentsdemo:content[3]:
+        jcr:primaryType: dynamiccomponentsdemo:BannerCompound
+        dynamiccomponentsdemo:title: Video Banner!
+        /dynamiccomponentsdemo:content:
+          jcr:primaryType: hippostd:html
+          hippostd:content: <p>I don't know how well this will really work but lets
+            try it out.</p>
+        /dynamiccomponentsdemo:background:
+          jcr:primaryType: dynamiccomponentsdemo:VideoCompound
+          dynamiccomponentsdemo:id: https://www.youtube.com/embed/xFgOaww64Ao
+      /dynamiccomponentsdemo:content[4]:
+        jcr:primaryType: dynamiccomponentsdemo:TwoColumnCompound
+        /dynamiccomponentsdemo:left:
+          jcr:primaryType: hippostd:html
+          hippostd:content: <p>This is some content on the left.</p>
+        /dynamiccomponentsdemo:right:
+          jcr:primaryType: dynamiccomponentsdemo:ImageCompound
+          dynamiccomponentsdemo:alt: Happy people
+          /dynamiccomponentsdemo:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 74b700d3-0cc4-4d9e-b7ab-23fafe68d6c5
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+      /dynamiccomponentsdemo:content[5]:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>This is just an example rich text.</p>
+      /dynamiccomponentsdemo:content[6]:
+        jcr:primaryType: dynamiccomponentsdemo:CTACompound
+        dynamiccomponentsdemo:title: ''
+        /dynamiccomponentsdemo:content:
+          jcr:primaryType: hippostd:html
+          hippostd:content: ''
+        /dynamiccomponentsdemo:link:
+          jcr:primaryType: dynamiccomponentsdemo:LinkCompound
+          dynamiccomponentsdemo:label: Do the thing
+    /example[2]:
+      jcr:primaryType: dynamiccomponentsdemo:LandingPage
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: b4b1a33a-35be-4207-a9d1-e8db7a6daa0e
+      dynamiccomponentsdemo:title: Example Landing Page
+      hippo:availability: [preview]
+      hippostd:retainable: false
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2020-11-17T14:06:47.811-05:00
+      hippostdpubwf:lastModificationDate: 2020-11-18T11:56:17.716-05:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 71160754-51eb-4dfb-9f4e-868682a4931a
+      hippotranslation:locale: en
+      /dynamiccomponentsdemo:metadata:
+        jcr:primaryType: dynamiccomponentsdemo:MetadataCompound
+        dynamiccomponentsdemo:description: A meta description
+        dynamiccomponentsdemo:keywords: Some meta keywords
+        dynamiccomponentsdemo:title: A meta title
+      /dynamiccomponentsdemo:content[1]:
+        jcr:primaryType: dynamiccomponentsdemo:BannerCompound
+        dynamiccomponentsdemo:header: Welcome
+        dynamiccomponentsdemo:title: Welcome
+        /dynamiccomponentsdemo:content:
+          jcr:primaryType: hippostd:html
+          hippostd:content: <p>This is just an example landing page.</p>
+        /dynamiccomponentsdemo:background:
+          jcr:primaryType: dynamiccomponentsdemo:ImageCompound
+          dynamiccomponentsdemo:alt: Zelda!
+          /dynamiccomponentsdemo:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 72dca8a5-8116-4114-ab3e-a219c5de74d9
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+      /dynamiccomponentsdemo:content[2]:
+        jcr:primaryType: dynamiccomponentsdemo:TwoColumnCompound
+        /dynamiccomponentsdemo:left:
+          jcr:primaryType: dynamiccomponentsdemo:VideoCompound
+          dynamiccomponentsdemo:id: https://www.youtube.com/embed/xFgOaww64Ao
+        /dynamiccomponentsdemo:right:
+          jcr:primaryType: hippostd:html
+          hippostd:content: <p>This is just some Bloomreach marketing material.</p>
+      /dynamiccomponentsdemo:content[3]:
+        jcr:primaryType: dynamiccomponentsdemo:BannerCompound
+        dynamiccomponentsdemo:title: Video Banner!
+        /dynamiccomponentsdemo:content:
+          jcr:primaryType: hippostd:html
+          hippostd:content: <p>I don't know how well this will really work but lets
+            try it out.</p>
+        /dynamiccomponentsdemo:background:
+          jcr:primaryType: dynamiccomponentsdemo:VideoCompound
+          dynamiccomponentsdemo:id: https://www.youtube.com/embed/xFgOaww64Ao
+      /dynamiccomponentsdemo:content[4]:
+        jcr:primaryType: dynamiccomponentsdemo:TwoColumnCompound
+        /dynamiccomponentsdemo:left:
+          jcr:primaryType: hippostd:html
+          hippostd:content: <p>This is some content on the left.</p>
+        /dynamiccomponentsdemo:right:
+          jcr:primaryType: dynamiccomponentsdemo:ImageCompound
+          dynamiccomponentsdemo:alt: Happy people
+          /dynamiccomponentsdemo:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 74b700d3-0cc4-4d9e-b7ab-23fafe68d6c5
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+      /dynamiccomponentsdemo:content[5]:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>This is just an example rich text.</p>
+    /example[3]:
+      jcr:primaryType: dynamiccomponentsdemo:LandingPage
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 66d2eb0b-65cb-4cdf-827e-6d6b16862622
+      dynamiccomponentsdemo:title: Example Landing Page
+      hippo:availability: [live]
+      hippostd:retainable: false
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2020-11-17T14:06:47.811-05:00
+      hippostdpubwf:lastModificationDate: 2020-11-18T11:56:17.716-05:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2020-11-18T11:56:25.840-05:00
+      hippotranslation:id: 71160754-51eb-4dfb-9f4e-868682a4931a
+      hippotranslation:locale: en
+      /dynamiccomponentsdemo:metadata:
+        jcr:primaryType: dynamiccomponentsdemo:MetadataCompound
+        dynamiccomponentsdemo:description: A meta description
+        dynamiccomponentsdemo:keywords: Some meta keywords
+        dynamiccomponentsdemo:title: A meta title
+      /dynamiccomponentsdemo:content[1]:
+        jcr:primaryType: dynamiccomponentsdemo:BannerCompound
+        dynamiccomponentsdemo:header: Welcome
+        dynamiccomponentsdemo:title: Welcome
+        /dynamiccomponentsdemo:content:
+          jcr:primaryType: hippostd:html
+          hippostd:content: <p>This is just an example landing page.</p>
+        /dynamiccomponentsdemo:background:
+          jcr:primaryType: dynamiccomponentsdemo:ImageCompound
+          dynamiccomponentsdemo:alt: Zelda!
+          /dynamiccomponentsdemo:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 72dca8a5-8116-4114-ab3e-a219c5de74d9
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+      /dynamiccomponentsdemo:content[2]:
+        jcr:primaryType: dynamiccomponentsdemo:TwoColumnCompound
+        /dynamiccomponentsdemo:left:
+          jcr:primaryType: dynamiccomponentsdemo:VideoCompound
+          dynamiccomponentsdemo:id: https://www.youtube.com/embed/xFgOaww64Ao
+        /dynamiccomponentsdemo:right:
+          jcr:primaryType: hippostd:html
+          hippostd:content: <p>This is just some Bloomreach marketing material.</p>
+      /dynamiccomponentsdemo:content[3]:
+        jcr:primaryType: dynamiccomponentsdemo:BannerCompound
+        dynamiccomponentsdemo:title: Video Banner!
+        /dynamiccomponentsdemo:content:
+          jcr:primaryType: hippostd:html
+          hippostd:content: <p>I don't know how well this will really work but lets
+            try it out.</p>
+        /dynamiccomponentsdemo:background:
+          jcr:primaryType: dynamiccomponentsdemo:VideoCompound
+          dynamiccomponentsdemo:id: https://www.youtube.com/embed/xFgOaww64Ao
+      /dynamiccomponentsdemo:content[4]:
+        jcr:primaryType: dynamiccomponentsdemo:TwoColumnCompound
+        /dynamiccomponentsdemo:left:
+          jcr:primaryType: hippostd:html
+          hippostd:content: <p>This is some content on the left.</p>
+        /dynamiccomponentsdemo:right:
+          jcr:primaryType: dynamiccomponentsdemo:ImageCompound
+          dynamiccomponentsdemo:alt: Happy people
+          /dynamiccomponentsdemo:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 74b700d3-0cc4-4d9e-b7ab-23fafe68d6c5
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+      /dynamiccomponentsdemo:content[5]:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>This is just an example rich text.</p>
+  /test:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: 6276609d-416d-46e0-babc-eaf2be9cea77
+    hippo:versionHistory: c1167662-e5b5-444d-9793-ad3c729156b3
+    /test[1]:
+      jcr:primaryType: dynamiccomponentsdemo:LandingPage
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 770d15b2-9a5f-4665-bd43-aa3eea21a1c4
+      dynamiccomponentsdemo:title: Test
+      hippo:availability: []
+      hippostd:retainable: false
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2020-11-18T11:57:35.292-05:00
+      hippostdpubwf:lastModificationDate: 2020-11-18T11:57:35.292-05:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: d3e8e258-38ff-4a4e-83dc-d6415ad5133c
+      hippotranslation:locale: en
+      /dynamiccomponentsdemo:metadata:
+        jcr:primaryType: dynamiccomponentsdemo:MetadataCompound
+        dynamiccomponentsdemo:description: ''
+        dynamiccomponentsdemo:keywords: ''
+        dynamiccomponentsdemo:title: ''
+      /dynamiccomponentsdemo:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>This is a test.</p>
+    /test[2]:
+      jcr:primaryType: dynamiccomponentsdemo:LandingPage
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: 544323c5-79e8-497f-acb7-35c5ecbd0faa
+      dynamiccomponentsdemo:title: Test
+      hippo:availability: [preview]
+      hippostd:retainable: false
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2020-11-18T11:57:35.292-05:00
+      hippostdpubwf:lastModificationDate: 2020-11-18T11:57:47.192-05:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: d3e8e258-38ff-4a4e-83dc-d6415ad5133c
+      hippotranslation:locale: en
+      /dynamiccomponentsdemo:metadata:
+        jcr:primaryType: dynamiccomponentsdemo:MetadataCompound
+        dynamiccomponentsdemo:description: ''
+        dynamiccomponentsdemo:keywords: ''
+        dynamiccomponentsdemo:title: ''
+      /dynamiccomponentsdemo:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>This is a test.</p>
+    /test[3]:
+      jcr:primaryType: dynamiccomponentsdemo:LandingPage
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 358c016b-da06-452b-b0b8-a2d41d8ba229
+      dynamiccomponentsdemo:title: Test
+      hippo:availability: [live]
+      hippostd:retainable: false
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2020-11-18T11:57:35.292-05:00
+      hippostdpubwf:lastModificationDate: 2020-11-18T11:57:47.192-05:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2020-11-18T11:57:51.370-05:00
+      hippotranslation:id: d3e8e258-38ff-4a4e-83dc-d6415ad5133c
+      hippotranslation:locale: en
+      /dynamiccomponentsdemo:metadata:
+        jcr:primaryType: dynamiccomponentsdemo:MetadataCompound
+        dynamiccomponentsdemo:description: ''
+        dynamiccomponentsdemo:keywords: ''
+        dynamiccomponentsdemo:title: ''
+      /dynamiccomponentsdemo:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>This is a test.</p>
+  /landing-page:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: d75a2619-0762-42bd-bbad-a2ffafad187c
+    hippo:name: Landing Page
+    /landing-page[1]:
+      jcr:primaryType: dynamiccomponentsdemo:LandingPage
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 12e319c7-f4f8-45a8-8483-5c36ce360514
+      dynamiccomponentsdemo:title: ''
+      hippo:availability: []
+      hippostd:retainable: false
+      hippostd:state: draft
+      hippostd:transferable: false
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2020-11-18T13:41:14.578-05:00
+      hippostdpubwf:lastModificationDate: 2020-11-18T13:46:10.590-05:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: e205f150-2a92-4396-8d72-a5fb40dc1bb0
+      hippotranslation:locale: en
+      /dynamiccomponentsdemo:metadata:
+        jcr:primaryType: dynamiccomponentsdemo:MetadataCompound
+        dynamiccomponentsdemo:description: ''
+        dynamiccomponentsdemo:keywords: ''
+        dynamiccomponentsdemo:title: ''
+    /landing-page[2]:
+      jcr:primaryType: dynamiccomponentsdemo:LandingPage
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: 5fbe4a00-7adb-4e48-8020-bdb061ea552f
+      dynamiccomponentsdemo:title: ''
+      hippo:availability: [preview]
+      hippostd:retainable: false
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2020-11-18T13:41:14.578-05:00
+      hippostdpubwf:lastModificationDate: 2020-11-18T13:41:27.204-05:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: e205f150-2a92-4396-8d72-a5fb40dc1bb0
+      hippotranslation:locale: en
+      /dynamiccomponentsdemo:metadata:
+        jcr:primaryType: dynamiccomponentsdemo:MetadataCompound
+        dynamiccomponentsdemo:description: ''
+        dynamiccomponentsdemo:keywords: ''
+        dynamiccomponentsdemo:title: ''

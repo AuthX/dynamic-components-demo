@@ -1,0 +1,75 @@
+/content/gallery/dynamiccomponentsdemo/new-normal-video-image.png:
+  .meta:order-before: acm-case-study.jpg
+  jcr:primaryType: hippo:handle
+  jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+  jcr:uuid: 74b700d3-0cc4-4d9e-b7ab-23fafe68d6c5
+  hippo:name: New-Normal-Video-Image.png
+  /new-normal-video-image.png:
+    jcr:primaryType: dynamiccomponentsdemo:Default
+    hippo:availability: [live, preview]
+    hippogallery:description: ''
+    hippogallery:filename: New-Normal-Video-Image.png
+    /hippogallery:thumbnail:
+      jcr:primaryType: hippogallery:image
+      hippo:filename: New-Normal-Video-Image.png
+      hippogallery:height: 60
+      hippogallery:width: 39
+      jcr:data:
+        type: binary
+        resource: /content/gallery/dynamiccomponentsdemo/new-normal-video-image.png/new-normal-video-image.png/thumbnail/thumbnail.png
+      jcr:lastModified: 2020-11-17T15:30:44.847-05:00
+      jcr:mimeType: image/png
+    /dynamiccomponentsdemo:cta:
+      jcr:primaryType: hippogallery:image
+      hippogallery:height: 250
+      hippogallery:width: 163
+      jcr:data:
+        type: binary
+        resource: /content/gallery/dynamiccomponentsdemo/new-normal-video-image.png/new-normal-video-image.png/cta/cta.png
+      jcr:lastModified: 2020-11-18T08:41:24.849-05:00
+      jcr:mimeType: image/png
+    /hippogallery:original:
+      jcr:primaryType: hippogallery:image
+      hippogallery:height: 586
+      hippogallery:width: 383
+      jcr:data:
+        type: binary
+        resource: /content/gallery/dynamiccomponentsdemo/new-normal-video-image.png/new-normal-video-image.png/original/original.png
+      jcr:lastModified: 2020-11-17T15:30:44.847-05:00
+      jcr:mimeType: image/png
+    /dynamiccomponentsdemo:banner:
+      jcr:primaryType: hippogallery:image
+      hippogallery:height: 586
+      hippogallery:width: 383
+      jcr:data:
+        type: binary
+        resource: /content/gallery/dynamiccomponentsdemo/new-normal-video-image.png/new-normal-video-image.png/banner/banner.png
+      jcr:lastModified: 2020-11-18T08:41:24.915-05:00
+      jcr:mimeType: image/png
+    /dynamiccomponentsdemo:column:
+      jcr:primaryType: hippogallery:image
+      hippogallery:height: 589
+      hippogallery:width: 385
+      jcr:data:
+        type: binary
+        resource: /content/gallery/dynamiccomponentsdemo/new-normal-video-image.png/new-normal-video-image.png/column/column.png
+      jcr:lastModified: 2020-11-18T08:41:25.008-05:00
+      jcr:mimeType: image/png
+    /dynamiccomponentsdemo:columnTablet:
+      jcr:primaryType: hippogallery:image
+      hippogallery:height: 459
+      hippogallery:width: 299
+      jcr:data:
+        type: binary
+        resource: /content/gallery/dynamiccomponentsdemo/new-normal-video-image.png/new-normal-video-image.png/columnTablet/columnTablet.png
+      jcr:lastModified: 2020-11-18T09:12:22.574-05:00
+      jcr:mimeType: image/png
+    /dynamiccomponentsdemo:columnMobile:
+      jcr:primaryType: hippogallery:image
+      hippogallery:height: 384
+      hippogallery:width: 250
+      jcr:data:
+        type: binary
+        resource: /content/gallery/dynamiccomponentsdemo/new-normal-video-image.png/new-normal-video-image.png/columnMobile/columnMobile.png
+      jcr:lastModified: 2020-11-18T09:12:33.554-05:00
+      jcr:mimeType: image/png

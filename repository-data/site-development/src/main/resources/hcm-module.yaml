@@ -1,0 +1,6 @@
+site: dynamiccomponentsdemo
+group: dynamiccomponentsdemo
+project: dynamiccomponentsdemo
+module:
+  name: dynamiccomponentsdemo-repository-data-site-development
+  after: dynamiccomponentsdemo-repository-data-site

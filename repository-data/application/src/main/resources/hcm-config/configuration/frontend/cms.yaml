@@ -1,0 +1,47 @@
+definitions:
+  config:
+    /hippo:configuration/hippo:frontend/cms/cms-services/galleryProcessorService/dynamiccomponentsdemo:cta:
+      .meta:order-before: dynamiccomponentsdemo:banner
+      jcr:primaryType: frontend:pluginconfig
+      height: 250
+      upscaling: false
+      width: 250
+      compression: 1.0
+      cropping: false
+      optimize: quality
+    /hippo:configuration/hippo:frontend/cms/cms-services/galleryProcessorService/dynamiccomponentsdemo:banner:
+      jcr:primaryType: frontend:pluginconfig
+      height: 0
+      upscaling: false
+      width: 1280
+      compression: 1.0
+      cropping: false
+      optimize: quality
+    /hippo:configuration/hippo:frontend/cms/cms-services/imageValidationService:
+      max.width: 4096
+      max.height: 4096
+    /hippo:configuration/hippo:frontend/cms/cms-services/galleryProcessorService/dynamiccomponentsdemo:column:
+      jcr:primaryType: frontend:pluginconfig
+      height: 0
+      upscaling: true
+      width: 385
+      compression: 1.0
+      cropping: false
+      optimize: quality
+    /hippo:configuration/hippo:frontend/cms/cms-services/galleryProcessorService/dynamiccomponentsdemo:columnTablet:
+      .meta:order-before: dynamiccomponentsdemo:columnMobile
+      jcr:primaryType: frontend:pluginconfig
+      height: 0
+      upscaling: false
+      width: 300
+      compression: 1.0
+      cropping: false
+      optimize: quality
+    /hippo:configuration/hippo:frontend/cms/cms-services/galleryProcessorService/dynamiccomponentsdemo:columnMobile:
+      jcr:primaryType: frontend:pluginconfig
+      height: 0
+      upscaling: false
+      width: 250
+      compression: 1.0
+      cropping: false
+      optimize: quality

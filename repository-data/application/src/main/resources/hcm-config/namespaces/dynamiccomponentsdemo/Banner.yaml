@@ -1,0 +1,136 @@
+definitions:
+  config:
+    /hippo:namespaces/dynamiccomponentsdemo/Banner:
+      jcr:primaryType: hipposysedit:templatetype
+      jcr:mixinTypes: ['editor:editable', 'mix:referenceable']
+      jcr:uuid: eb1f1cff-085e-4ed5-9915-b922894dac73
+      /hipposysedit:nodetype:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: e4adf419-e262-4094-b38c-ea29a968fcc3
+        /hipposysedit:nodetype:
+          jcr:primaryType: hipposysedit:nodetype
+          jcr:mixinTypes: ['mix:referenceable', 'hipposysedit:remodel']
+          jcr:uuid: 917636d4-ead2-48e0-b9b4-c2fd0522c55e
+          hipposysedit:node: true
+          hipposysedit:supertype: ['dynamiccomponentsdemo:basedocument', 'hippostd:relaxed',
+            'hippotranslation:translated']
+          hipposysedit:uri: http://www.dynamiccomponentsdemo.com/dynamiccomponentsdemo/nt/1.0
+          /title:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: dynamiccomponentsdemo:title
+            hipposysedit:primary: false
+            hipposysedit:type: String
+          /content:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: dynamiccomponentsdemo:content
+            hipposysedit:primary: false
+            hipposysedit:type: hippostd:html
+          /cta:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: dynamiccomponentsdemo:cta
+            hipposysedit:primary: false
+            hipposysedit:type: dynamiccomponentsdemo:CTACompound
+          /background:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:multiple: true
+            hipposysedit:ordered: true
+            hipposysedit:path: dynamiccomponentsdemo:background
+            hipposysedit:type: hippo:compound
+            hipposysedit:validators: [contentblocks-validator]
+      /hipposysedit:prototypes:
+        jcr:primaryType: hipposysedit:prototypeset
+        /hipposysedit:prototype:
+          jcr:primaryType: dynamiccomponentsdemo:Banner
+          hippostd:holder: holder
+          hippostd:state: draft
+          hippostdpubwf:createdBy: ''
+          hippostdpubwf:lastModifiedBy: ''
+          hippotranslation:id: document-type-locale-id
+          hippotranslation:locale: document-type-locale
+          jcr:mixinTypes: ['mix:referenceable']
+          dynamiccomponentsdemo:title: ''
+          jcr:uuid: c209d938-faab-4be6-a599-fbd386277a85
+          hippostdpubwf:lastModificationDate: 2020-11-16T14:35:27.475-05:00
+          hippostdpubwf:creationDate: 2020-11-16T14:35:27.476-05:00
+          /dynamiccomponentsdemo:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: ''
+          /dynamiccomponentsdemo:cta:
+            jcr:primaryType: dynamiccomponentsdemo:CTACompound
+            dynamiccomponentsdemo:title: ''
+            /dynamiccomponentsdemo:content:
+              jcr:primaryType: hippostd:html
+              hippostd:content: ''
+            /dynamiccomponentsdemo:link:
+              jcr:primaryType: dynamiccomponentsdemo:LinkCompound
+              dynamiccomponentsdemo:label: ''
+      /editor:templates:
+        jcr:primaryType: editor:templateset
+        /_default_:
+          jcr:primaryType: frontend:plugincluster
+          frontend:properties: [mode]
+          frontend:references: [wicket.model, model.compareTo, engine, validator.id]
+          frontend:services: [wicket.id, validator.id]
+          /root:
+            jcr:primaryType: frontend:plugin
+            extension.left: ${cluster.id}.left
+            extension.right: ${cluster.id}.right
+            plugin.class: org.hippoecm.frontend.editor.layout.TwoColumn
+            wicket.extensions: [extension.left, extension.right]
+          /left:
+            jcr:primaryType: frontend:plugin
+            item: ${cluster.id}.left.item
+            plugin.class: org.hippoecm.frontend.service.render.ListViewPlugin
+            wicket.id: ${cluster.id}.left
+          /right:
+            jcr:primaryType: frontend:plugin
+            item: ${cluster.id}.right.item
+            plugin.class: org.hippoecm.frontend.service.render.ListViewPlugin
+            wicket.id: ${cluster.id}.right
+          /title:
+            jcr:primaryType: frontend:plugin
+            caption: Title
+            field: title
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.PropertyFieldPlugin
+            wicket.id: ${cluster.id}.left.item
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig
+          /content:
+            jcr:primaryType: frontend:plugin
+            caption: Content
+            field: content
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.NodeFieldPlugin
+            wicket.id: ${cluster.id}.left.item
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig
+          /background:
+            jcr:primaryType: frontend:plugin
+            caption: Background
+            compoundList: dynamiccomponentsdemo:ImageCompound,dynamiccomponentsdemo:VideoCompound
+            contentPickerType: links
+            field: background
+            plugin.class: org.onehippo.forge.contentblocks.ContentBlocksFieldPlugin
+            wicket.id: ${cluster.id}.right.item
+            hint: ''
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig
+              maxitems: 1
+          /cta:
+            jcr:primaryType: frontend:plugin
+            caption: CTA
+            field: cta
+            hint: ''
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.NodeFieldPlugin
+            wicket.id: ${cluster.id}.left.item
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig

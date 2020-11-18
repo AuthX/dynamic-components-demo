@@ -1,0 +1,28 @@
+definitions:
+  config:
+    /hippo:configuration/hippo:translations/hippo:templates/de:
+      new-resource-bundle: Neues Resource-Bundle
+      new-untranslated-folder: Neuer nicht übersetzter Ordner
+      new-dynamiccomponentsdemo-Default-image: Neues Bild
+      new-dynamiccomponentsdemo-Default-folder: Neuer Ordner
+    /hippo:configuration/hippo:translations/hippo:templates/en:
+      new-resource-bundle: new resource bundle
+      new-untranslated-folder: new untranslated folder
+      new-dynamiccomponentsdemo-Default-image: New Image
+      new-dynamiccomponentsdemo-Default-folder: new folder
+    /hippo:configuration/hippo:translations/hippo:templates/fr:
+      new-resource-bundle: nouveau resource bundle
+      new-untranslated-folder: nouveau dossier non traduit
+      new-dynamiccomponentsdemo-Default-image: Nouvelle image
+      new-dynamiccomponentsdemo-Default-folder: un nouveau dossier
+    /hippo:configuration/hippo:translations/hippo:templates/nl:
+      new-resource-bundle: nieuwe resource bundle
+      new-untranslated-folder: nieuwe onvertaalde map
+      new-dynamiccomponentsdemo-Default-image: Nieuwe Afbeelding
+      new-dynamiccomponentsdemo-Default-folder: nieuwe map
+    /hippo:configuration/hippo:translations/hippo:templates/es:
+      new-dynamiccomponentsdemo-Default-image: Nueva imagen
+      new-dynamiccomponentsdemo-Default-folder: nueva carpeta
+    /hippo:configuration/hippo:translations/hippo:templates/zh:
+      new-dynamiccomponentsdemo-Default-image: 新图片
+      new-dynamiccomponentsdemo-Default-folder: 新文件夹

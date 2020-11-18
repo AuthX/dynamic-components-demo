@@ -1,0 +1,5 @@
+definitions:
+  namespace:
+    dynamiccomponentsdemo:
+      uri: http://www.dynamiccomponentsdemo.com/dynamiccomponentsdemo/nt/1.0
+      cnd: namespaces/dynamiccomponentsdemo.cnd

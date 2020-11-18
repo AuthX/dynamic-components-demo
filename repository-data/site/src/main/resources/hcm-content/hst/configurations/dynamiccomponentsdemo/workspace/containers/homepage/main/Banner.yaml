@@ -1,0 +1,6 @@
+/hst:hst/hst:configurations/dynamiccomponentsdemo/hst:workspace/hst:containers/homepage/main/Banner:
+  jcr:primaryType: hst:containeritemcomponent
+  hst:componentdefinition: hst:components/dynamiccomponentsdemo-catalog/Banner
+  hst:parameternames: [document, theme, org.hippoecm.hst.core.component.template]
+  hst:parametervalues: [/content/documents/dynamiccomponentsdemo/banner-a, Small,
+    'webfile:/freemarker/dynamiccomponentsdemo/components/banner.ftl']

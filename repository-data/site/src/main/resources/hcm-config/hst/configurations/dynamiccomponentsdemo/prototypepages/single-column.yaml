@@ -1,0 +1,4 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/dynamiccomponentsdemo/hst:prototypepages/single-column:
+      jcr:primaryType: hst:component

@@ -1,0 +1,4 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/dynamiccomponentsdemo/hst:prototypepages:
+      jcr:primaryType: hst:pages

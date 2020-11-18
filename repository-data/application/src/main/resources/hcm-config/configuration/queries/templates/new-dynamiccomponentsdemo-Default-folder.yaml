@@ -1,0 +1,15 @@
+definitions:
+  config:
+    /hippo:configuration/hippo:queries/hippo:templates/new-dynamiccomponentsdemo-Default-folder:
+      jcr:primaryType: hippostd:templatequery
+      hippostd:modify: [./_name, $name]
+      jcr:language: xpath
+      jcr:statement: /jcr:root/hippo:configuration/hippo:queries/hippo:templates/new-dynamiccomponentsdemo-Default-folder/hippostd:templates/node()
+      /hippostd:templates:
+        jcr:primaryType: hippostd:templates
+        /image gallery:
+          jcr:primaryType: hippogallery:stdImageGallery
+          jcr:mixinTypes: ['mix:versionable']
+          jcr:uuid: f025bc25-9e87-40e8-b656-89e5eb02d251
+          hippostd:foldertype: [new-dynamiccomponentsdemo-Default-folder]
+          hippostd:gallerytype: ['dynamiccomponentsdemo:Default']

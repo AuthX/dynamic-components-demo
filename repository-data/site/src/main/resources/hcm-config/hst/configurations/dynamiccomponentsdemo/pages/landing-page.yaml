@@ -1,0 +1,12 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/dynamiccomponentsdemo/hst:pages/landing-page:
+      jcr:primaryType: hst:component
+      hst:referencecomponent: hst:abstractpages/base
+      /main:
+        jcr:primaryType: hst:component
+        hst:template: landing-page
+        /document:
+          jcr:primaryType: hst:component
+          hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsContentComponent
+          hst:template: landing-page-component

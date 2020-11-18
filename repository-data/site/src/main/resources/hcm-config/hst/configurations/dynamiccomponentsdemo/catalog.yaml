@@ -1,0 +1,26 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/dynamiccomponentsdemo/hst:catalog:
+      jcr:primaryType: hst:catalog
+      /dynamiccomponentsdemo-catalog:
+        jcr:primaryType: hst:containeritempackage
+        /Banner:
+          jcr:primaryType: hst:componentdefinition
+          hst:componentclassname: org.hippoecm.hst.component.support.bean.dynamic.BaseHstDynamicComponent
+          hst:template: banner
+          hst:label: Banner
+          /document:
+            jcr:primaryType: hst:dynamicparameter
+            hst:displayname: Document
+            hst:required: true
+            hst:valuetype: text
+            /hst:fieldconfig:
+              jcr:primaryType: hst:jcrpath
+              hst:pickerselectablenodetypes: ['dynamiccomponentsdemo:Banner', 'dynamiccomponentsdemo:BannerList']
+          /theme:
+            jcr:primaryType: hst:dynamicparameter
+            hst:displayname: Theme
+            hst:valuetype: text
+            /hst:fieldconfig:
+              jcr:primaryType: hst:dropdown
+              hst:value: [Big, Small, Medium]

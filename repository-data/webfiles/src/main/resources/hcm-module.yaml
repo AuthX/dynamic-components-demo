@@ -1,0 +1,5 @@
+group: 
+  name: dynamiccomponentsdemo
+project: dynamiccomponentsdemo
+module:
+  name: dynamiccomponentsdemo-repository-data-webfiles

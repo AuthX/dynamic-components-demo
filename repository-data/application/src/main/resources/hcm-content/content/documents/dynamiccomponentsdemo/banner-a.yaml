@@ -1,0 +1,127 @@
+/content/documents/dynamiccomponentsdemo/banner-a:
+  jcr:primaryType: hippo:handle
+  jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+  jcr:uuid: 305e3694-53f6-457e-a8fd-2b537cb95b21
+  hippo:name: Banner-A
+  hippo:versionHistory: dfd040d9-6406-45f3-92f2-383a38bfc047
+  /banner-a[1]:
+    jcr:primaryType: dynamiccomponentsdemo:Banner
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 524db4ad-b250-496e-b9ad-e44af1da73d1
+    dynamiccomponentsdemo:title: This is a title
+    hippo:availability: []
+    hippostd:retainable: false
+    hippostd:state: draft
+    hippostdpubwf:createdBy: admin
+    hippostdpubwf:creationDate: 2020-11-16T14:51:50.896-05:00
+    hippostdpubwf:lastModificationDate: 2020-11-18T12:37:51.121-05:00
+    hippostdpubwf:lastModifiedBy: admin
+    hippotranslation:id: c5258c11-2b98-4130-9a96-455975d7716c
+    hippotranslation:locale: en
+    /dynamiccomponentsdemo:content:
+      jcr:primaryType: hippostd:html
+      hippostd:content: <p>This is some content</p>
+    /dynamiccomponentsdemo:cta:
+      jcr:primaryType: dynamiccomponentsdemo:CTACompound
+      dynamiccomponentsdemo:title: Do the thing
+      /dynamiccomponentsdemo:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Seriously, do the thing. It's important.</p>
+      /dynamiccomponentsdemo:link:
+        jcr:primaryType: dynamiccomponentsdemo:LinkCompound
+        dynamiccomponentsdemo:label: Go there now
+        /dynamiccomponentsdemo:link:
+          jcr:primaryType: dynamiccomponentsdemo:InternalLinkCompound
+          /dynamiccomponentsdemo:link:
+            jcr:primaryType: hippo:mirror
+            hippo:docbase: a8d2fd8d-0994-42cb-b215-a71e1a101647
+    /dynamiccomponentsdemo:background:
+      jcr:primaryType: dynamiccomponentsdemo:ImageCompound
+      dynamiccomponentsdemo:alt: case study
+      /dynamiccomponentsdemo:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: ef7fe2b6-1570-44cf-86af-3e702fbd21db
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+  /banner-a[2]:
+    jcr:primaryType: dynamiccomponentsdemo:Banner
+    jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+    jcr:uuid: ee78049e-5f35-4b76-8b92-c879ced148bd
+    dynamiccomponentsdemo:title: This is a title
+    hippo:availability: [preview]
+    hippostd:retainable: false
+    hippostd:state: unpublished
+    hippostdpubwf:createdBy: admin
+    hippostdpubwf:creationDate: 2020-11-16T14:51:50.896-05:00
+    hippostdpubwf:lastModificationDate: 2020-11-18T12:37:50.680-05:00
+    hippostdpubwf:lastModifiedBy: admin
+    hippotranslation:id: c5258c11-2b98-4130-9a96-455975d7716c
+    hippotranslation:locale: en
+    /dynamiccomponentsdemo:content:
+      jcr:primaryType: hippostd:html
+      hippostd:content: <p>This is some content</p>
+    /dynamiccomponentsdemo:cta:
+      jcr:primaryType: dynamiccomponentsdemo:CTACompound
+      dynamiccomponentsdemo:title: Do the thing
+      /dynamiccomponentsdemo:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Seriously, do the thing. It's important.</p>
+      /dynamiccomponentsdemo:link:
+        jcr:primaryType: dynamiccomponentsdemo:LinkCompound
+        dynamiccomponentsdemo:label: Go there now
+        /dynamiccomponentsdemo:link:
+          jcr:primaryType: dynamiccomponentsdemo:InternalLinkCompound
+          /dynamiccomponentsdemo:link:
+            jcr:primaryType: hippo:mirror
+            hippo:docbase: a8d2fd8d-0994-42cb-b215-a71e1a101647
+    /dynamiccomponentsdemo:background:
+      jcr:primaryType: dynamiccomponentsdemo:ImageCompound
+      dynamiccomponentsdemo:alt: case study
+      /dynamiccomponentsdemo:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: ef7fe2b6-1570-44cf-86af-3e702fbd21db
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+  /banner-a[3]:
+    jcr:primaryType: dynamiccomponentsdemo:Banner
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 34bc65e7-081f-40e3-a49c-05e4a78141c6
+    dynamiccomponentsdemo:title: This is a title
+    hippo:availability: [live]
+    hippostd:retainable: false
+    hippostd:state: published
+    hippostdpubwf:createdBy: admin
+    hippostdpubwf:creationDate: 2020-11-16T14:51:50.896-05:00
+    hippostdpubwf:lastModificationDate: 2020-11-18T12:37:50.680-05:00
+    hippostdpubwf:lastModifiedBy: admin
+    hippostdpubwf:publicationDate: 2020-11-18T12:37:55.742-05:00
+    hippotranslation:id: c5258c11-2b98-4130-9a96-455975d7716c
+    hippotranslation:locale: en
+    /dynamiccomponentsdemo:content:
+      jcr:primaryType: hippostd:html
+      hippostd:content: <p>This is some content</p>
+    /dynamiccomponentsdemo:cta:
+      jcr:primaryType: dynamiccomponentsdemo:CTACompound
+      dynamiccomponentsdemo:title: Do the thing
+      /dynamiccomponentsdemo:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Seriously, do the thing. It's important.</p>
+      /dynamiccomponentsdemo:link:
+        jcr:primaryType: dynamiccomponentsdemo:LinkCompound
+        dynamiccomponentsdemo:label: Go there now
+        /dynamiccomponentsdemo:link:
+          jcr:primaryType: dynamiccomponentsdemo:InternalLinkCompound
+          /dynamiccomponentsdemo:link:
+            jcr:primaryType: hippo:mirror
+            hippo:docbase: a8d2fd8d-0994-42cb-b215-a71e1a101647
+    /dynamiccomponentsdemo:background:
+      jcr:primaryType: dynamiccomponentsdemo:ImageCompound
+      dynamiccomponentsdemo:alt: case study
+      /dynamiccomponentsdemo:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: ef7fe2b6-1570-44cf-86af-3e702fbd21db
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []

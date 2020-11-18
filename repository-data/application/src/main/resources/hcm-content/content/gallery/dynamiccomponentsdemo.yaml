@@ -1,0 +1,7 @@
+/content/gallery/dynamiccomponentsdemo:
+  jcr:primaryType: hippogallery:stdImageGallery
+  jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+  jcr:uuid: 982ac4f3-3464-4a75-bb52-75a3bb79ce6a
+  hippo:name: Dynamic Components Demo
+  hippostd:foldertype: [new-dynamiccomponentsdemo-Default-folder]
+  hippostd:gallerytype: ['dynamiccomponentsdemo:Default']

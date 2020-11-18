@@ -1,0 +1,73 @@
+/content/gallery/dynamiccomponentsdemo/d5tjonk-9b9d5b5e-206c-42cd-9fcf-182cb296dda7.jpg:
+  .meta:order-before: acm-case-study.jpg
+  jcr:primaryType: hippo:handle
+  jcr:mixinTypes: ['mix:referenceable']
+  jcr:uuid: 72dca8a5-8116-4114-ab3e-a219c5de74d9
+  /d5tjonk-9b9d5b5e-206c-42cd-9fcf-182cb296dda7.jpg:
+    jcr:primaryType: dynamiccomponentsdemo:Default
+    hippo:availability: [live, preview]
+    hippogallery:filename: d5tjonk-9b9d5b5e-206c-42cd-9fcf-182cb296dda7.jpg
+    /hippogallery:thumbnail:
+      jcr:primaryType: hippogallery:image
+      hippo:filename: d5tjonk-9b9d5b5e-206c-42cd-9fcf-182cb296dda7.jpg
+      hippogallery:height: 23
+      hippogallery:width: 60
+      jcr:data:
+        type: binary
+        resource: /content/gallery/dynamiccomponentsdemo/d5tjonk-9b9d5b5e-206c-42cd-9fcf-182cb296dda7.jpg/d5tjonk-9b9d5b5e-206c-42cd-9fcf-182cb296dda7.jpg/thumbnail/thumbnail.jpg
+      jcr:lastModified: 2020-11-17T14:17:38.715-05:00
+      jcr:mimeType: image/jpeg
+    /dynamiccomponentsdemo:cta:
+      jcr:primaryType: hippogallery:image
+      hippogallery:height: 98
+      hippogallery:width: 250
+      jcr:data:
+        type: binary
+        resource: /content/gallery/dynamiccomponentsdemo/d5tjonk-9b9d5b5e-206c-42cd-9fcf-182cb296dda7.jpg/d5tjonk-9b9d5b5e-206c-42cd-9fcf-182cb296dda7.jpg/cta/cta.jpg
+      jcr:lastModified: 2020-11-18T08:41:27.943-05:00
+      jcr:mimeType: image/jpeg
+    /hippogallery:original:
+      jcr:primaryType: hippogallery:image
+      hippogallery:height: 1284
+      hippogallery:width: 3264
+      jcr:data:
+        type: binary
+        resource: /content/gallery/dynamiccomponentsdemo/d5tjonk-9b9d5b5e-206c-42cd-9fcf-182cb296dda7.jpg/d5tjonk-9b9d5b5e-206c-42cd-9fcf-182cb296dda7.jpg/original/original.jpg
+      jcr:lastModified: 2020-11-17T14:17:38.715-05:00
+      jcr:mimeType: image/jpeg
+    /dynamiccomponentsdemo:banner:
+      jcr:primaryType: hippogallery:image
+      hippogallery:height: 503
+      hippogallery:width: 1280
+      jcr:data:
+        type: binary
+        resource: /content/gallery/dynamiccomponentsdemo/d5tjonk-9b9d5b5e-206c-42cd-9fcf-182cb296dda7.jpg/d5tjonk-9b9d5b5e-206c-42cd-9fcf-182cb296dda7.jpg/banner/banner.jpg
+      jcr:lastModified: 2020-11-18T08:41:28.672-05:00
+      jcr:mimeType: image/jpeg
+    /dynamiccomponentsdemo:column:
+      jcr:primaryType: hippogallery:image
+      hippogallery:height: 151
+      hippogallery:width: 385
+      jcr:data:
+        type: binary
+        resource: /content/gallery/dynamiccomponentsdemo/d5tjonk-9b9d5b5e-206c-42cd-9fcf-182cb296dda7.jpg/d5tjonk-9b9d5b5e-206c-42cd-9fcf-182cb296dda7.jpg/column/column.jpg
+      jcr:lastModified: 2020-11-18T08:41:29.214-05:00
+      jcr:mimeType: image/jpeg
+    /dynamiccomponentsdemo:columnTablet:
+      jcr:primaryType: hippogallery:image
+      hippogallery:height: 118
+      hippogallery:width: 300
+      jcr:data:
+        type: binary
+        resource: /content/gallery/dynamiccomponentsdemo/d5tjonk-9b9d5b5e-206c-42cd-9fcf-182cb296dda7.jpg/d5tjonk-9b9d5b5e-206c-42cd-9fcf-182cb296dda7.jpg/columnTablet/columnTablet.jpg
+      jcr:lastModified: 2020-11-18T08:41:29.630-05:00
+      jcr:mimeType: image/jpeg
+    /dynamiccomponentsdemo:columnMobile:
+      jcr:primaryType: hippogallery:image
+      hippogallery:height: 98
+      hippogallery:width: 250
+      jcr:data:
+        type: binary
+        resource: /content/gallery/dynamiccomponentsdemo/d5tjonk-9b9d5b5e-206c-42cd-9fcf-182cb296dda7.jpg/d5tjonk-9b9d5b5e-206c-42cd-9fcf-182cb296dda7.jpg/columnMobile/columnMobile.jpg
+      jcr:lastModified: 2020-11-18T08:41:30.087-05:00
+      jcr:mimeType: image/jpeg

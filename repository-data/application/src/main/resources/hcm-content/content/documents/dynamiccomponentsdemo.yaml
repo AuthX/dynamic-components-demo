@@ -1,0 +1,9 @@
+/content/documents/dynamiccomponentsdemo:
+  .meta:order-before: administration
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:referenceable']
+  jcr:uuid: a7076e27-204d-497f-aedd-ae91156c6905
+  hippo:name: Dynamic Components Demo
+  hippostd:foldertype: [new-translated-folder, new-document]
+  hippotranslation:id: 996bcac5-86cf-49b5-a7a3-16a74863e814
+  hippotranslation:locale: en
